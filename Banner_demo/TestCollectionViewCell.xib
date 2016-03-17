@@ -22,7 +22,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Tp-Rn-c55">
                                 <rect key="frame" x="64" y="70" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -32,8 +32,12 @@
                             <constraint firstItem="5Tp-Rn-c55" firstAttribute="centerX" secondItem="KQ5-gu-KYv" secondAttribute="centerX" id="O5T-bF-CYc"/>
                             <constraint firstItem="f82-is-1QA" firstAttribute="leading" secondItem="KQ5-gu-KYv" secondAttribute="leading" id="SUV-4c-IOK"/>
                             <constraint firstItem="f82-is-1QA" firstAttribute="top" secondItem="KQ5-gu-KYv" secondAttribute="top" id="XmY-gI-b1k"/>
+                            <constraint firstItem="f82-is-1QA" firstAttribute="leading" secondItem="KQ5-gu-KYv" secondAttribute="leading" id="Ymw-DI-1Fh"/>
+                            <constraint firstAttribute="trailing" secondItem="f82-is-1QA" secondAttribute="trailing" id="a0f-Da-S3i"/>
                             <constraint firstAttribute="trailing" secondItem="f82-is-1QA" secondAttribute="trailing" id="bv6-g7-MSH"/>
+                            <constraint firstItem="f82-is-1QA" firstAttribute="top" secondItem="KQ5-gu-KYv" secondAttribute="top" id="fru-6B-SKs"/>
                             <constraint firstAttribute="bottom" secondItem="f82-is-1QA" secondAttribute="bottom" id="jaL-fY-SpR"/>
+                            <constraint firstAttribute="bottom" secondItem="f82-is-1QA" secondAttribute="bottom" id="xx2-dU-pwX"/>
                         </constraints>
                     </view>
                 </subviews>
@@ -41,9 +45,13 @@
             </view>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="KQ5-gu-KYv" secondAttribute="trailing" id="8YZ-My-ahq"/>
+                <constraint firstAttribute="trailing" secondItem="KQ5-gu-KYv" secondAttribute="trailing" id="Alp-wc-gvP"/>
                 <constraint firstAttribute="bottom" secondItem="KQ5-gu-KYv" secondAttribute="bottom" id="Hhc-vC-l5v"/>
+                <constraint firstItem="KQ5-gu-KYv" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="OFL-we-p9v"/>
                 <constraint firstItem="KQ5-gu-KYv" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="US0-Cc-pIT"/>
                 <constraint firstItem="KQ5-gu-KYv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Ulo-Jg-dot"/>
+                <constraint firstAttribute="bottom" secondItem="KQ5-gu-KYv" secondAttribute="bottom" id="uKw-Sm-YO5"/>
+                <constraint firstItem="KQ5-gu-KYv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="zCA-cE-Ayo"/>
             </constraints>
             <size key="customSize" width="171" height="162"/>
             <connections>

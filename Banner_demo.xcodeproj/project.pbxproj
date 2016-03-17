@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B2C30BF1C9664870030F6D9 /* banner_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C30BB1C9664870030F6D9 /* banner_1.png */; };
-		2B2C30C01C9664870030F6D9 /* banner_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C30BC1C9664870030F6D9 /* banner_4.png */; };
-		2B2C30C11C9664870030F6D9 /* banner_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C30BD1C9664870030F6D9 /* banner_3.png */; };
-		2B2C30C21C9664870030F6D9 /* banner_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2C30BE1C9664870030F6D9 /* banner_2.png */; };
+		2B19AECF1C9A748100EB5E39 /* BannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B19AECE1C9A748100EB5E39 /* BannerView.m */; };
+		2B19AED41C9A7DDA00EB5E39 /* banner_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B19AED01C9A7DDA00EB5E39 /* banner_3.jpg */; };
+		2B19AED51C9A7DDA00EB5E39 /* banner_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B19AED11C9A7DDA00EB5E39 /* banner_4.jpg */; };
+		2B19AED61C9A7DDA00EB5E39 /* banner_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B19AED21C9A7DDA00EB5E39 /* banner_1.jpg */; };
+		2B19AED71C9A7DDA00EB5E39 /* banner_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B19AED31C9A7DDA00EB5E39 /* banner_2.jpg */; };
 		2B4A98F71C929153002D729D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A98F61C929153002D729D /* main.m */; };
 		2B4A98FA1C929153002D729D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A98F91C929153002D729D /* AppDelegate.m */; };
 		2B4A98FD1C929153002D729D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A98FC1C929153002D729D /* ViewController.m */; };
@@ -42,10 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2B2C30BB1C9664870030F6D9 /* banner_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner_1.png; sourceTree = "<group>"; };
-		2B2C30BC1C9664870030F6D9 /* banner_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner_4.png; sourceTree = "<group>"; };
-		2B2C30BD1C9664870030F6D9 /* banner_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner_3.png; sourceTree = "<group>"; };
-		2B2C30BE1C9664870030F6D9 /* banner_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner_2.png; sourceTree = "<group>"; };
+		2B19AECD1C9A748100EB5E39 /* BannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerView.h; sourceTree = "<group>"; };
+		2B19AECE1C9A748100EB5E39 /* BannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerView.m; sourceTree = "<group>"; };
+		2B19AED01C9A7DDA00EB5E39 /* banner_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner_3.jpg; sourceTree = "<group>"; };
+		2B19AED11C9A7DDA00EB5E39 /* banner_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner_4.jpg; sourceTree = "<group>"; };
+		2B19AED21C9A7DDA00EB5E39 /* banner_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner_1.jpg; sourceTree = "<group>"; };
+		2B19AED31C9A7DDA00EB5E39 /* banner_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner_2.jpg; sourceTree = "<group>"; };
 		2B4A98F21C929153002D729D /* Banner_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Banner_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B4A98F61C929153002D729D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2B4A98F81C929153002D729D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -121,6 +124,8 @@
 				2B4A98F91C929153002D729D /* AppDelegate.m */,
 				2B4A98FB1C929153002D729D /* ViewController.h */,
 				2B4A98FC1C929153002D729D /* ViewController.m */,
+				2B19AECD1C9A748100EB5E39 /* BannerView.h */,
+				2B19AECE1C9A748100EB5E39 /* BannerView.m */,
 				2B4A99291C92BD75002D729D /* TestCollectionViewCell.h */,
 				2B4A992A1C92BD75002D729D /* TestCollectionViewCell.m */,
 				2B4A992B1C92BD75002D729D /* TestCollectionViewCell.xib */,
@@ -138,10 +143,10 @@
 		2B4A98F51C929153002D729D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2B2C30BB1C9664870030F6D9 /* banner_1.png */,
-				2B2C30BC1C9664870030F6D9 /* banner_4.png */,
-				2B2C30BD1C9664870030F6D9 /* banner_3.png */,
-				2B2C30BE1C9664870030F6D9 /* banner_2.png */,
+				2B19AED01C9A7DDA00EB5E39 /* banner_3.jpg */,
+				2B19AED11C9A7DDA00EB5E39 /* banner_4.jpg */,
+				2B19AED21C9A7DDA00EB5E39 /* banner_1.jpg */,
+				2B19AED31C9A7DDA00EB5E39 /* banner_2.jpg */,
 				2B4A98F61C929153002D729D /* main.m */,
 			);
 			name = "Supporting Files";
@@ -268,14 +273,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B2C30C11C9664870030F6D9 /* banner_3.png in Resources */,
+				2B19AED61C9A7DDA00EB5E39 /* banner_1.jpg in Resources */,
+				2B19AED51C9A7DDA00EB5E39 /* banner_4.jpg in Resources */,
+				2B19AED71C9A7DDA00EB5E39 /* banner_2.jpg in Resources */,
 				2B4A99051C929153002D729D /* LaunchScreen.storyboard in Resources */,
 				2B4A99021C929153002D729D /* Assets.xcassets in Resources */,
-				2B2C30C21C9664870030F6D9 /* banner_2.png in Resources */,
+				2B19AED41C9A7DDA00EB5E39 /* banner_3.jpg in Resources */,
 				2B4A992D1C92BD75002D729D /* TestCollectionViewCell.xib in Resources */,
 				2B4A99001C929153002D729D /* Main.storyboard in Resources */,
-				2B2C30BF1C9664870030F6D9 /* banner_1.png in Resources */,
-				2B2C30C01C9664870030F6D9 /* banner_4.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +307,7 @@
 			files = (
 				2B4A98FD1C929153002D729D /* ViewController.m in Sources */,
 				2B4A98FA1C929153002D729D /* AppDelegate.m in Sources */,
+				2B19AECF1C9A748100EB5E39 /* BannerView.m in Sources */,
 				2B4A992C1C92BD75002D729D /* TestCollectionViewCell.m in Sources */,
 				2B4A99301C92BF04002D729D /* CircleLineLayout.m in Sources */,
 				2B4A98F71C929153002D729D /* main.m in Sources */,
